@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Đơn Giản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với Trang Web của Trí</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Trang chủ</h2>
+        <p>Đây là nội dung trang chủ.</p>
+    </section>
+    <section id="about">
+        <h2>Giới thiệu</h2>
+        <p>Đây là nội dung giới thiệu.</p>
+    </section>
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <form id="contact-form">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Trí. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
